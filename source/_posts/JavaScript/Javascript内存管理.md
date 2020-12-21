@@ -1,7 +1,7 @@
 ---
 title: Javascript内存管理
 date: 2019-08-29 00:00:05
-tags:
+tags: 编程语言
 categories: 9.JavaScript
 ---
 <p>总结Javascript内存相关知识，加深学习和理解。</p>

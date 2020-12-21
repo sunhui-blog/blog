@@ -1,7 +1,7 @@
 ---
 title: JavaScript基础巩固篇
 date: 2019-06-25 16:50:28
-tags:
+tags: 编程语言
 categories: 9.JavaScript
 thumbnail: img/basic.jpg
 ---
