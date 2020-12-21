@@ -1,4 +1,12 @@
 <% function build_list(categories) {
+    categories = categories.sort((a, b) => {
+      if (a.name.indexOf('.') && b.name.indexOf('.')) {
+        return a.name.split('.')[0] - b.name.split('.')[0]
+      } else {
+        return b.name - a.name
+      }
+    })
+
     return categories.map(category => {
         let result = `<li>
         <a class="level is-marginless" href="${category.url}">
