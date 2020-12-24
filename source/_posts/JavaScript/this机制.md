@@ -2,7 +2,7 @@
 title: this机制
 date: 2020-09-02 11:52:38
 toc: true
-categories: 9.JavaScript
+categories: JavaScript
 ---
 
 <p style="text-indent:30px">

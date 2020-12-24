@@ -2,7 +2,7 @@
 title: JavaScript原型
 date: 2019-10-28 00:33:25
 tags:
-categories: 9.JavaScript
+categories: JavaScript
 ---
 <style type="text/css">
 .l30{text-indent:30px;}

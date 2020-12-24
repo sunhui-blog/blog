@@ -2,7 +2,7 @@
 title: Vue问题总结
 date: 2019-10-28 23:09:34
 tags: 框架
-categories: 7.框架
+categories: 框架
 ---
 
 <p>常见问题总结</p>

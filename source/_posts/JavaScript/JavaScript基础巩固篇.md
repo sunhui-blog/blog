@@ -2,7 +2,7 @@
 title: JavaScript基础巩固篇
 date: 2019-06-25 16:50:28
 tags: 编程语言
-categories: 9.JavaScript
+categories: JavaScript
 thumbnail: img/basic.jpg
 ---
 <p>“好记性不如烂笔头”夯实基础，提高效率，深耕底层，精细打磨，优化产出。</p>

@@ -2,7 +2,7 @@
 title: JavaScript严格模式
 date: 2020-01-03 14:10:10
 tags:
-categories: 9.JavaScript
+categories: JavaScript
 ---
 
 <p>严格模式为了修复Javascript语法的不严谨性。</p>

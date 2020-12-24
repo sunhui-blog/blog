@@ -2,7 +2,7 @@
 title: JavaScript实现继承的几种方式
 date: 2019-06-09 13:39:07
 toc: true
-categories: 9.JavaScript
+categories: JavaScript
 # thumbnail: img/shell.jpg
 ---
 <p>继承：是<a href="https://en.wikipedia.org/wiki/Object-oriented_programming">面向对象（to:wiki）</a>Object-oriented_programming软件技术当中的一个概念，与多态、封装共为面向对象的三个基本特征。 继承可以使得子类具有父类的属性和方法或者重新定义、追加属性和方法等。</p>
