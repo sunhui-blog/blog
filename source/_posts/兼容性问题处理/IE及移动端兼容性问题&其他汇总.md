@@ -2,7 +2,7 @@
 title: IE及移动端兼容性&其他问题汇总
 date: 2019-03-06 23:30:28
 toc: true
-categories: 兼容性问题处理
+categories: 12.兼容性问题处理
 tags:
 ---
 <p>此篇用于总结遇到的兼容性问题，便于积累和提升</p>

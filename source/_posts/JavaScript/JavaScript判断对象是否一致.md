@@ -2,7 +2,7 @@
 title: JavaScript判断对象是否一致
 date: 2019-09-04 04:33:31
 tags:
-categories: JavaScript
+categories: 9.JavaScript
 ---
 <p>总结一下这个问题！可用于判断用户在form表单编辑页面是否变更了数据内容。减少编辑form接口请求~当然这个比对的意义随需求变化而变化。</p>
 <style type="text/css">

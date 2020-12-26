@@ -2,7 +2,7 @@
 title: 如何手动实现form表单提交的url
 date: 2019-09-04 03:41:50
 tags:
-categories: JavaScript
+categories: 9.JavaScript
 ---
 <p>这个问题比较有趣，记录一下！</p>
 
