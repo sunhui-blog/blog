@@ -1,7 +1,8 @@
 ---
 title: Chrome源码导读
 date: 2020-09-02 13:44:38
-categories: Chrome源码
+tags: 源码
+categories: 阅读源码
 ---
 <style type="text/css">
 .pt{padding-top:10px;}
