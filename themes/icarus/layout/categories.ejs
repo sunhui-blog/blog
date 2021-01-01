@@ -1,14 +1,30 @@
 <% function build_list(categories) {
-    categories = categories.sort((a, b) => {
-      if (a.name.indexOf('.') && b.name.indexOf('.')) {
-        return a.name.split('.')[0] - b.name.split('.')[0]
-      } else {
-        return b.name - a.name
-      }
+    var datas = JSON.parse(JSON.stringify(categories))
+    var common = []
+    var commonTypes = ['FQA', '书虫', '工具', '总结']
+
+    categories = datas.filter((item, index) => {
+      commonTypes.includes(item.name) && common.push(item)
+
+      return !commonTypes.includes(item.name)
     })
 
-    return categories.map(category => {
-        let result = `<li>
+    return categories.map((category, index) => {
+      let result = `<li>
+        <a class="level is-marginless" href="${category.url}">
+            <span class="level-start">
+                <span class="level-item">${index + 1}.${category.name}</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">${category.count}</span>
+            </span>
+        </a>`;
+      if (category.hasOwnProperty('children')) {
+          result += '<ul>' + build_list(category.children) + '</ul>';
+      }
+      return result + '</li>';
+    }).join('').concat(common.map((category, index) => {
+      let result = `<li>
         <a class="level is-marginless" href="${category.url}">
             <span class="level-start">
                 <span class="level-item">${category.name}</span>
@@ -17,11 +33,11 @@
                 <span class="level-item tag">${category.count}</span>
             </span>
         </a>`;
-        if (category.hasOwnProperty('children')) {
-            result += '<ul>' + build_list(category.children) + '</ul>';
-        }
-        return result + '</li>';
-    }).join('');
+      if (category.hasOwnProperty('children')) {
+          result += '<ul>' + build_list(category.children) + '</ul>';
+      }
+      return result + '</li>';
+    }).join(''));
 }
 %>
 <div class="card widget">

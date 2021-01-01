@@ -2,7 +2,7 @@
 title: JavaScript设计模式-观察者模式
 date: 2019-05-24 23:31:27
 tags: 设计模式
-categories: 4.设计模式
+categories: 设计模式
 thumbnail: img/desert.jpg
 ---
 <p style="text-indent:30px">概念：观察者模式也称发布者-订阅者模式（publisher-subscriber pattern)，用于让对象对事件进行监听以便对其作出响应。</p>
