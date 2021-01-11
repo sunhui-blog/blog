@@ -76,11 +76,14 @@ thumbnail: img/basic.jpg
     </li>
     <li>实现继承的几种方式：
         <div style="word-wrap:break-word;">
-        参考：https://sunhui-blog.github.io/2019/06/09/JavaScript%E5%AE%9E%E7%8E%B0%E7%BB%A7%E6%89%BF%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F/#more
+        参考：<a href="https://sunhui-blog.github.io/2019/06/09/JavaScript/JavaScript%E5%AE%9E%E7%8E%B0%E7%BB%A7%E6%89%BF%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F/" target="_blank">实现继承的几种方式</a>
         </div>
     </li>
     <li>闭包:
-        <div></div>
+        <div>
+        ```
+        ```
+        </div>
     </li>
     <li>严格模式：
         <ul style="margin: 10px 10px;">
@@ -93,6 +96,31 @@ thumbnail: img/basic.jpg
         <div style="margin-top:10px;">
           Undefined、Null、Object、Number、String、Boolean
         </div>
+    </li>
+    <li>对象转数组:
+        <div>
+        ```
+        var obj = {
+          a: 1,
+          b: 2,
+          c: 3
+        }
+        var arr = []
+        for (let i in obj) {
+          let o = {};
+          o[i] = obj[i];
+          arr.push(o)
+        }
+        console.log(arr) // [{a: 1}, {b: 2}, {c: 3}]
+        ```
+        </div>
+    </li>
+    <li>数组转对象：
+      <div>
+        ```
+        
+        ```
+      </div>
     </li>
 </ol>
 

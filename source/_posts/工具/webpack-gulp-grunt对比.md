@@ -5,10 +5,12 @@ tags: 工具
 categories: 工具
 ---
 
+<p>知识点汇总</p>
 <!-- more -->
 
-<p>Webpack loader和plugin的区别</p>
+<p>webpack相关内容：</p>
 
+<p>webpack的loader和plugin的区别：</p>
 <ol>
   <li>webpack loader是用来加载文件的，webpack plugin是用来扩展功能的。</li>
   <li>loader主要是用来加载一个个文件的，比如它可以加载js文件并把js文件转译成低版本浏览器可以支持的js文件；也可以用来加载css文件，可以把css文件变成页面上的style标签；还可以加载图片文件，可以对文件进行优化。</li>
