@@ -116,11 +116,30 @@ thumbnail: img/basic.jpg
         </div>
     </li>
     <li>数组转对象：
-      <div>
+        <div>
         ```
+        // 1.Object.assign 2.扩展运算符（...）
+        const arr = [1, 2, 3]
+        Object.assign({},[1,2,3]) // {0: 1, 1: 2, 2: 3}
+        {...['a','b','c']} // {0: "a", 1: "b", 2: "c"}
+
+        // forEach
+        let obj = {}
+        const arr = ['a','b','c']
+        arr.forEach((item,index)=>{obj[index] = item}) // {0: "a", 1: "b", 2: "c"}
+
+        // for...in
+        let obj = {}
+        const arr = ['a','b','c']
+        for(var key in arr){
+          obj[key]=arr[key]
+        }
+        obj // {0: "a", 1: "b", 2: "c"}
+        ```
+        </div>
+    </li>
+    <li>
         
-        ```
-      </div>
     </li>
 </ol>
 
