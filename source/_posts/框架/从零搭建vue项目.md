@@ -5,10 +5,6 @@ tags: 框架
 categories: 框架
 ---
 
-<style type="text/css">
-.red{color: red;}
-</style>
-
 不借助vue-cil脚手架，基于webpack+vue搭建开发环境
 
 github:
@@ -19,12 +15,11 @@ github:
 <!--more-->
 
 <h4>具体步骤:</h4>
-<span class="red">(待补充)</span>
 <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>project初始化：npm init生成package.json。</li>
+  <li>安装依赖包：npm i webpack vue vue-loader</li>
+  <li>实例化vue：index.js文件中实例化vue。</li>
+  <li>配置webpack.config.js：plugins和loader及开发环境</li>
 </ol>
 
 <h4 style="margin-top:50px;"><附></h4>

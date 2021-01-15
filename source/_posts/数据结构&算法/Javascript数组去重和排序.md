@@ -1,7 +1,7 @@
 ---
 title: Javascript数组去重和排序
 date: 2020-12-13 10:27:19
-tags: 编程语言
+tags: 算法
 categories: 数据结构&算法
 ---
 

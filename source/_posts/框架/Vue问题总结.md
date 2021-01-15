@@ -46,4 +46,8 @@ categories: 框架
     ```
   </li>
   <li>在某个页面中new一个对象时，在离开页面时要注意销毁（设为undefined）,避免对象被实例化多次。</li>
+  <li>
+    主函数/mixin/组件 生命周期执行过程
+    ![vue生命周期执行过程](/img/execute.png)
+  </li>
 </ol>
