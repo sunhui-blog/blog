@@ -1,6 +1,6 @@
 ---
 title: 手写一个简易版promise
-date: 2021-01-14 23:58:42
+date: 2021-01-13 23:58:42
 tags: 编程语言
 categories: JavaScript
 ---

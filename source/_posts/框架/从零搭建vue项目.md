@@ -1,5 +1,5 @@
 ---
-title: 从零搭建vue项目
+title: 从零搭建vue/react项目
 date: 2021-01-13 17:24:01
 tags: 框架
 categories: 框架
@@ -8,17 +8,26 @@ categories: 框架
 不借助vue-cil脚手架，基于webpack+vue搭建开发环境
 
 github:
-  <a href="https://github.com/sunhui-blog/vue-demo" target="_blank">
-    https://github.com/sunhui-blog/vue-demo
-  </a>
+<ul>
+  <li>vue-demo地址：
+    <a href="https://github.com/sunhui-blog/vue-demo" target="_blank">
+      https://github.com/sunhui-blog/vue-demo
+    </a>
+  </li>
+  <li>react-demo地址：
+    <a href="https://github.com/sunhui-blog/react-demo" target="_blank">
+      https://github.com/sunhui-blog/react-demo
+    </a>
+  </li>
+</ul>
 
 <!--more-->
 
-<h4>具体步骤:</h4>
+<h4 style="margin-top:50px;">具体步骤:</h4>
 <ol>
-  <li>project初始化：npm init生成package.json。</li>
+  <li>project初始化：npm init生成package.json</li>
   <li>安装依赖包：npm i webpack vue vue-loader</li>
-  <li>实例化vue：index.js文件中实例化vue。</li>
+  <li>实例化vue：index.js文件中实例化vue</li>
   <li>配置webpack.config.js：plugins和loader及开发环境</li>
 </ol>
 

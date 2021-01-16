@@ -1,7 +1,0 @@
----
-title: SOA服务架构
-date: 2021-01-06 14:54:57
-categories: 架构
-tags: 架构
----
-  
