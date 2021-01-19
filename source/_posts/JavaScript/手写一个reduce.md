@@ -3,6 +3,7 @@ title: 手写一个reduce
 date: 2021-01-13 19:05:14
 tags: 编程语言
 categories: JavaScript
+thumbnail: img/knowledge.png
 ---
 
 reduce累加器的js实现

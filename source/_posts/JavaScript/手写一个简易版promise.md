@@ -107,3 +107,26 @@ new Promise((resolve, reject) => {
   console.log(error)
 })
 ```
+
+<ol>
+  <li>
+    <p>Promise.all：按队列依次返回结果</p>
+    ```
+    Promise.all([p1, p2]).then((result) => {
+      console.log(result) // ['1', '2']
+    }).catch((error) => {
+      console.log(error)
+    })
+    ```
+  </li>
+  <li>
+    <p>Promise.race：采用第一个promise的值作为它的值，从而异步地解析或拒绝（一旦堆栈为空）。</p>
+    ```
+    Promise.race([p1, p2, p3]).then((result) => {
+      console.log(result)
+    }).catch((error) => {
+      console.log(error)
+    })
+    ```
+  </li>
+</ol>

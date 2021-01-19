@@ -84,3 +84,6 @@ deploy:
 
 marked: 
   breaks: false
+
+busuanzi:
+  enable: true
