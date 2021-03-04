@@ -1,54 +1,57 @@
 <footer class="footer">
     <div class="container">
         <div class="level">
-            <div class="level-start has-text-centered-mobile">
-                <a class="footer-logo is-block has-mb-6" href="<%- url_for('/') %>">
-                <% if (has_config('logo.text') && get_config('logo.text')) { %>
-                    <%= get_config('logo.text') %>
-                <% } else { %>
-                    <!-- <img src="<%- url_for(get_config('logo')) %>" alt="<%= get_config('title') %>" height="28"> -->
+            <div class="level-start has-text-centered-mobile" style="width: 100%;">
+              <a class="footer-logo is-block has-mb-6" href="<%- url_for('/') %>">
+              <% if (has_config('logo.text') && get_config('logo.text')) { %>
+                  <%= get_config('logo.text') %>
+              <% } else { %>
+                  <!-- <img src="<%- url_for(get_config('logo')) %>" alt="<%= get_config('title') %>" height="28"> -->
+              <% } %>
+              </a>
+              <p class="is-size-7" style="display: inline-block; float: left;">
+              &copy; <%= date(new Date(), 'YYYY') %> <%= get_config('author') || get_config('title') %>&nbsp;
+              Powered by <a href="https://github.com/sunhui-blog" target="_blank">shjavascript</a>
+              <% if (has_config('plugins.busuanzi') ? get_config('plugins.busuanzi') : false) { %>
+              <br>
+              <span id="busuanzi_container_site_uv">
+              <%- _p('plugin.visitor', '<span id="busuanzi_value_site_uv">0</span>') %>
+              </span>
+              <% } %>
+              </p>
+              <p style="display: inline-block; float: right;">
+                <% if (theme.busuanzi && theme.busuanzi.enable){ %>
+                  <!-- 不蒜子统计 -->
+                  <span id="busuanzi_container_site_pv">
+                          本站总访问量<span id="busuanzi_value_site_pv"></span>次
+                  </span>
+                  <span class="post-meta-divider">|</span>
+                  <span id="busuanzi_container_site_uv" style='display:none'>
+                          本站访客数<span id="busuanzi_value_site_uv"></span>人
+                  </span>
+                  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
                 <% } %>
-                </a>
-                <p class="is-size-7">
-                &copy; <%= date(new Date(), 'YYYY') %> <%= get_config('author') || get_config('title') %>&nbsp;
-                Powered by <a href="https://github.com/sunny-5" target="_blank">shjavascript</a>
-                <% if (has_config('plugins.busuanzi') ? get_config('plugins.busuanzi') : false) { %>
-                <br>
-                <span id="busuanzi_container_site_uv">
-                <%- _p('plugin.visitor', '<span id="busuanzi_value_site_uv">0</span>') %>
-                </span>
-                <% } %>
-                </p>
-            </div>
-            <% if (theme.busuanzi && theme.busuanzi.enable){ %>
-                <!-- 不蒜子统计 -->
-                <span id="busuanzi_container_site_pv">
-                  本站总访问量<span id="busuanzi_value_site_pv"></span>次
-                </span>
-                <span id="busuanzi_container_site_uv">
-                  本站访客数<span id="busuanzi_value_site_uv"></span>人
-                </span>
-                <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+              </p>
+          </div>
+          <!-- <div class="level-end">
+          <% if (has_config('footer.links')) { %>
+              <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+              <% let links = get_config('footer.links'); %>
+              <% for (let name in links) {
+                      let link = links[name]; %>
+              <p class="control">
+                  <a class="button is-white <%= typeof(link) !== 'string' ? 'is-large' : '' %>" target="_blank" title="<%= name %>" href="<%= url_for(typeof(link) === 'string' ? link : link.url) %>">
+                      <% if (typeof(link) === 'string') { %>
+                      <%= name %>
+                      <% } else { %>
+                      <i class="<%= link.icon %>"></i>
+                      <% } %>
+                  </a>
+              </p>
+              <% } %>
+              </div>
           <% } %>
-            <!-- <div class="level-end">
-            <% if (has_config('footer.links')) { %>
-                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
-                <% let links = get_config('footer.links'); %>
-                <% for (let name in links) {
-                        let link = links[name]; %>
-                <p class="control">
-                    <a class="button is-white <%= typeof(link) !== 'string' ? 'is-large' : '' %>" target="_blank" title="<%= name %>" href="<%= url_for(typeof(link) === 'string' ? link : link.url) %>">
-                        <% if (typeof(link) === 'string') { %>
-                        <%= name %>
-                        <% } else { %>
-                        <i class="<%= link.icon %>"></i>
-                        <% } %>
-                    </a>
-                </p>
-                <% } %>
-                </div>
-            <% } %>
-            </div> -->
+          </div> -->
         </div>
     </div>
 </footer>

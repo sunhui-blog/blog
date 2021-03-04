@@ -1,7 +1,7 @@
 ---
 title: Git使用过程中遇到的问题
 date: 2019-09-04 03:08:44
-tags:
+tags: 工具
 categories: 工具
 ---
 <p>此篇用于记录Git使用过程中遇到的问题。</p>
@@ -10,7 +10,9 @@ categories: 工具
 .pt5{padding-top:5px;}
 .fb{font-weight:bolder;}
 </style>
+
 <!-- more -->
+
 <ol>
   <li class="pt">多个公私密钥情况下，如何添加ssh-add？
     <div class="pt">
