@@ -1,8 +1,8 @@
 ---
 title: 使用Mocha进行自动化测试
 date: 2021-01-30 21:30:02
-tags: 工具
-categories: 工具
+tags: 测试框架
+categories: 测试框架
 ---
 
 
