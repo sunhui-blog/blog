@@ -1,0 +1,44 @@
+---
+title: mysql
+date: 2021-03-04 13:34:43
+tags: 数据库
+categories: 数据库
+---
+<p>数据库常用sql整理。</p>
+<!--more-->
+<ol>
+  <li>创建数据库:
+    ```
+    CREATE DATABASE <数据库名>;
+
+    // 创建notebook数据库
+    mysql> CREATE DATABASE notebook;
+    ```
+  </li>
+  <li>选择数据库:
+    ```
+    use <数据库名>;
+
+    // 选择notebook数据库
+    use notebook;
+    ```
+  </li>
+  <li>删除数据库:
+    ```
+    DROP DATABASE <数据库名>;
+
+    // 删除notebook数据库
+    mysql> DROP DATABASE notebook;
+    ```
+  </li>
+  <li>创建数据表:
+    ```
+    CREATE TABLE table_name (column_name column_type);
+    ```
+  </li>
+  <li>删除数据表:
+    ```
+    DROP TABLE table_name ;
+    ```
+  </li>
+</ol>
