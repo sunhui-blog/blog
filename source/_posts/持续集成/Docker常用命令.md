@@ -1,8 +1,8 @@
 ---
 title: Docker常用命令
 date: 2021-03-04 13:43:20
-tags: 工具
-categories: 工具
+tags: 持续集成
+categories: 持续集成
 ---
 
 与容器进行交互
