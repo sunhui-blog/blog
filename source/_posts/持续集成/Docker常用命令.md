@@ -17,9 +17,20 @@ categories: 持续集成
   <li>
     <p>与容器进行交互</p>
     ```
-    docker exec -t -i f726f305fb37 /bin/bash
+    docker exec -t -i <容器 ID> /bin/bash
     ```
-
+  </li>
+  <li>
+    <p>停止一个容器</p>
+    ```
+    docker stop <容器 ID>
+    ```
+  </li>
+  <li>
+    <p>重启一个容器</p>
+    ```
+    docker restart <容器 ID>
+    ```
   </li>
 </ol>
 
