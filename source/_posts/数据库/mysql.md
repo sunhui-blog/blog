@@ -4,6 +4,10 @@ date: 2021-03-04 13:34:43
 tags: 数据库
 categories: 数据库
 ---
+<style type="text/css">
+.red{color:red;}
+</style>
+
 <p>数据库常用sql整理。</p>
 <!--more-->
 <ol>
@@ -42,6 +46,8 @@ categories: 数据库
     ```
   </li>
 </ol>
+
+<p style="margin-top: 20px;">常见的数据模型有<span class="red">层次模型</span>、<span class="red">网状模型</span>和<span class="red">关系模型</span>三种。</p>
 
 <h4 style="margin-top: 40px;"><附></h4>
 <ol>

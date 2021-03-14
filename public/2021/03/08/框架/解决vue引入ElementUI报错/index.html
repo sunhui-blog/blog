@@ -2,25 +2,22 @@
 <html lang="en">
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-<title>koa源码 - shjavascript&#39;s blog</title>
+<title>解决vue引入ElementUI报错 - shjavascript&#39;s blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="description" content="koa源码。          入口文件地址：lib/application.js">
-<meta name="keywords" content="源码">
+    <meta name="description" content="报错信息ERROR in ./node_modules/element-ui/lib/theme-chalk/fonts/element-icons.ttf">
 <meta property="og:type" content="article">
-<meta property="og:title" content="koa源码">
-<meta property="og:url" content="http://yoursite.com/2021/01/16/阅读源码/koa源码/index.html">
+<meta property="og:title" content="解决vue引入ElementUI报错">
+<meta property="og:url" content="http://yoursite.com/2021/03/08/框架/解决vue引入ElementUI报错/index.html">
 <meta property="og:site_name" content="shjavascript&#39;s blog">
-<meta property="og:description" content="koa源码。          入口文件地址：lib/application.js">
+<meta property="og:description" content="报错信息ERROR in ./node_modules/element-ui/lib/theme-chalk/fonts/element-icons.ttf">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://yoursite.com/img/koa/enter.png">
-<meta property="og:updated_time" content="2021-03-04T18:28:15.609Z">
+<meta property="og:updated_time" content="2021-03-08T15:46:03.332Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="koa源码">
-<meta name="twitter:description" content="koa源码。          入口文件地址：lib/application.js">
-<meta name="twitter:image" content="http://yoursite.com/img/koa/enter.png">
+<meta name="twitter:title" content="解决vue引入ElementUI报错">
+<meta name="twitter:description" content="报错信息ERROR in ./node_modules/element-ui/lib/theme-chalk/fonts/element-icons.ttf">
 
 
 
@@ -92,7 +89,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <!-- <img src="/" alt="koa源码" height="28"> -->
+                <!-- <img src="/" alt="解决vue引入ElementUI报错" height="28"> -->
             
             </a>
         </div>
@@ -129,17 +126,13 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2021-01-16T13:18:19.000Z">2021-01-16</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/阅读源码/">阅读源码</a>
-                </div>
+                <time class="level-item has-text-grey" datetime="2021-03-08T03:47:08.000Z">2021-03-08</time>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    a few seconds read (About 27 words)
+                    a few seconds read (About 43 words)
                 </span>
                 
                 
@@ -148,31 +141,17 @@
         
         <h1 class="title is-size-4 is-size-5-mobile has-text-weight-normal">
             
-                koa源码
+                解决vue引入ElementUI报错
             
         </h1>
         <div class="content">
-            <p>koa源码。</p>
+            <p>报错信息ERROR in ./node_modules/element-ui/lib/theme-chalk/fonts/element-icons.ttf</p>
 
-<ol>
-  <li>
-    <p>入口文件地址：lib/application.js</p>
-    <img src="/img/koa/enter.png" alt="指定加载的入口文件">
-  </li>
-  <li>
+<a id="more"></a>
+<p>解决方式：在webpack.config.js的module/rules中加上</p>
 
-  </li>
-</ol>
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,</span><br><span class="line">  loader: &apos;file-loader&apos;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-        </div>
-        
-        <div class="level is-size-7 is-uppercase">
-            <div class="level-start">
-                <div class="level-item">
-                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
-                    <a class="has-link-grey -link" href="/tags/源码/">源码</a>
-                </div>
-            </div>
         </div>
         
         
@@ -191,17 +170,10 @@
 <div class="card card-transparent">
     <div class="level post-navigation is-flex-wrap is-mobile">
         
-        <div class="level-start">
-            <a class="level level-item has-link-grey  article-nav-prev" href="/2021/01/19/工具/手动实现一个koa-logger中间件/">
-                <i class="level-item fas fa-chevron-left"></i>
-                <span class="level-item">手动实现一个koa-logger中间件</span>
-            </a>
-        </div>
-        
         
         <div class="level-end">
-            <a class="level level-item has-link-grey  article-nav-next" href="/2021/01/16/框架/从零搭建vue-react项目/">
-                <span class="level-item">从零搭建vue/react项目</span>
+            <a class="level level-item has-link-grey  article-nav-next" href="/2021/03/07/数据库/redis/">
+                <span class="level-item">redis</span>
                 <i class="level-item fas fa-chevron-right"></i>
             </a>
         </div>
@@ -1513,7 +1485,7 @@
             <div class="level-start has-text-centered-mobile" style="width: 100%;">
               <a class="footer-logo is-block has-mb-6" href="/">
               
-                  <!-- <img src="/" alt="koa源码" height="28"> -->
+                  <!-- <img src="/" alt="解决vue引入ElementUI报错" height="28"> -->
               
               </a>
               <p class="is-size-7" style="display: inline-block; float: left;">
