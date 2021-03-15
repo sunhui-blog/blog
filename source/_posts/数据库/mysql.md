@@ -9,6 +9,7 @@ categories: 数据库
 </style>
 
 <p>数据库常用sql整理。</p>
+
 <!--more-->
 <ol>
   <li>创建数据库:
@@ -17,6 +18,20 @@ categories: 数据库
 
     // 创建notebook数据库
     mysql> CREATE DATABASE notebook;
+    ```
+  </li>
+  <li>显示数据库列表:
+    ```
+    SHOW DATABASES;
+
+    mysql> SHOW DATABASE;
+    ```
+  </li>
+  <li>显示库中的数据表:
+    ```
+    SHOW TABLES;
+
+    mysql> SHOW TABLES;
     ```
   </li>
   <li>选择数据库:
@@ -37,12 +52,22 @@ categories: 数据库
   </li>
   <li>创建数据表:
     ```
-    CREATE TABLE table_name (column_name column_type);
+    CREATE TABLE <数据表名> (column_name column_type);
     ```
+  </li>
+  <li>显示表中的记录:
+   ```
+   select * from <数据表名>;
+   ```
+  </li>
+  <li>将表中记录清空:
+   ```
+   delete from <数据表名>;
+   ```
   </li>
   <li>删除数据表:
     ```
-    DROP TABLE table_name ;
+    DROP TABLE <数据表名>;
     ```
   </li>
 </ol>
