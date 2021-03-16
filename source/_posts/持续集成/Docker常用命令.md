@@ -32,6 +32,12 @@ categories: 持续集成
     docker restart <容器 ID>
     ```
   </li>
+  <li>
+    <p>重命名一个容器</p>
+    ```
+    docker rename <旧容器名> <新容器名>
+    ```
+  </li>
 </ol>
 
 
