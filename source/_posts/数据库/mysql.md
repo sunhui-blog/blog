@@ -74,6 +74,8 @@ categories: 数据库
 
 <p style="margin-top: 20px;">常见的数据模型有<span class="red">层次模型</span>、<span class="red">网状模型</span>和<span class="red">关系模型</span>三种。</p>
 
+<p>需要关注问题：最新的加密方式node还不支持，具体版本是哪一版本，具体不能加密的原因是什么？</p>
+
 <h4 style="margin-top: 40px;"><附></h4>
 <ol>
   <li>https://www.liaoxuefeng.com/wiki/1177760294764384/1246617774585536</li>
