@@ -60,7 +60,7 @@ categories: 数据库
    select * from <数据表名>;
    ```
   </li>
-  <li>将表中记录清空:
+  <li>删除数据表数据:
    ```
    delete from <数据表名>;
    ```
@@ -68,6 +68,11 @@ categories: 数据库
   <li>删除数据表:
     ```
     DROP TABLE <数据表名>;
+    ```
+  </li>
+  <li>删除单条数据:
+    ```
+    DELETE FROM <数据表名> WHERE <参数名> = <参数值>;
     ```
   </li>
 </ol>
