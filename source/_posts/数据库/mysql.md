@@ -57,12 +57,12 @@ categories: 数据库
   </li>
   <li>显示表中的记录:
    ```
-   select * from <数据表名>;
+   SELECT * FROM <数据表名>;
    ```
   </li>
   <li>删除数据表数据:
    ```
-   delete from <数据表名>;
+   DELETE FROM <数据表名>;
    ```
   </li>
   <li>删除数据表:
@@ -73,6 +73,16 @@ categories: 数据库
   <li>删除单条数据:
     ```
     DELETE FROM <数据表名> WHERE <参数名> = <参数值>;
+    ```
+  </li>
+  <li>查询数据:
+    ```
+    SELECT * FROM <数据表名>;
+    ```
+  </li>
+  <li>查看表结构:
+    ```
+    show columns from <数据表名>;
     ```
   </li>
 </ol>
