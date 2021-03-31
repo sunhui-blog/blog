@@ -56,14 +56,14 @@ categories: 数据库
     ```
   </li>
   <li>显示表中的记录:
-   ```
-   SELECT * FROM <数据表名>;
-   ```
+    ```
+    SELECT * FROM <数据表名>;
+    ```
   </li>
   <li>删除数据表数据:
-   ```
-   DELETE FROM <数据表名>;
-   ```
+    ```
+    DELETE FROM <数据表名>;
+    ```
   </li>
   <li>删除数据表:
     ```
