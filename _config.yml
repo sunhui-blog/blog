@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Running Rabbit's blog
+title: shjavascript's blog
 subtitle:
 description:
 keywords:
@@ -84,3 +84,6 @@ deploy:
 
 marked: 
   breaks: false
+
+busuanzi:
+  enable: true

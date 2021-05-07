@@ -5,7 +5,7 @@ const DEFAULT_WIDGETS = [
         type: 'profile',
         position: 'left',
         author: 'Sun Hui',
-        author_title: 'Running Rabbit',
+        author_title: 'shjavascript',
         location: 'ShangHai',
         avatar: null,
         gravatar: null,
@@ -65,7 +65,7 @@ const ProfileSpec = {
     author_title: {
         [type]: 'string',
         [doc]: 'Title of the author to be shown in the profile widget',
-        [defaultValue]: 'Running Rabbit'
+        [defaultValue]: 'shjavascript'
     },
     location: {
         [type]: 'string',
