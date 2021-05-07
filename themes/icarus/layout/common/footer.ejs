@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
         <div class="level">
-            <div class="level-start has-text-centered-mobile">
+            <div class="level-start has-text-centered-mobile" style="width: 100%;">
                 <a class="footer-logo is-block has-mb-6" href="<%- url_for('/') %>">
                 <% if (has_config('logo.text') && get_config('logo.text')) { %>
                     <%= get_config('logo.text') %>
@@ -9,15 +9,28 @@
                     <!-- <img src="<%- url_for(get_config('logo')) %>" alt="<%= get_config('title') %>" height="28"> -->
                 <% } %>
                 </a>
-                <p class="is-size-7">
+                <p class="is-size-7" style="display: inline-block; float: left;">
                 &copy; <%= date(new Date(), 'YYYY') %> <%= get_config('author') || get_config('title') %>&nbsp;
-                Powered by <a href="hhttps://github.com/sunny-5" target="_blank">Running Rabbit</a>
+                Powered by <a href="https://github.com/sunhui-blog" target="_blank">shjavascript</a>
                 <% if (has_config('plugins.busuanzi') ? get_config('plugins.busuanzi') : false) { %>
                 <br>
                 <span id="busuanzi_container_site_uv">
                 <%- _p('plugin.visitor', '<span id="busuanzi_value_site_uv">0</span>') %>
                 </span>
                 <% } %>
+                </p>
+                <p style="display: inline-block; float: right;">
+                  <% if (theme.busuanzi && theme.busuanzi.enable){ %>
+                    <!-- 不蒜子统计 -->
+                    <span id="busuanzi_container_site_pv">
+                            本站总访问量<span id="busuanzi_value_site_pv"></span>次
+                    </span>
+                    <span class="post-meta-divider">|</span>
+                    <span id="busuanzi_container_site_uv" style='display:none'>
+                            本站访客数<span id="busuanzi_value_site_uv"></span>人
+                    </span>
+                    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                  <% } %>
                 </p>
             </div>
             <!-- <div class="level-end">
