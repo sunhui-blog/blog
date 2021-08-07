@@ -2,6 +2,7 @@
 title: npm包打包发布
 date: 2021-08-08 00:39:15
 tags:
+categories: 工程化
 ---
 
 <p>记录封装一个npm包，发布与下载过程。</p>
@@ -23,6 +24,7 @@ tags:
     npm login 或 npm adduser(adduser为login别名)
 
     // 输入Username、Password、Email
+    // 使用whoami命令将会显示用户名
     ```
 
   </li>
@@ -43,6 +45,12 @@ tags:
     ```
      npm unpublish <package>@0.0.1 // 撤销具体某一版本发布
      npm unpublish <package> --force // 撤销整个包
+    ```
+  </li>
+  <li>
+    <p>退出登录npm:</p>
+    ```
+    npm logout
     ```
   </li>
 </ol>
