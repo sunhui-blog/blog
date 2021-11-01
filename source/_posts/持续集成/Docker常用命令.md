@@ -39,10 +39,20 @@ categories: 持续集成
     docker rename <旧容器名> <新容器名>
     ```
   </li>
+  <li>
+    <p>删除一个容器</p>
+    ```
+    docker rm <容器 ID>
+    ```
+  </li>
 </ol>
 
 
 <h4 style="margin-top:50px;"><附></h4>
 <ol>参考：
   <li>https://www.jianshu.com/p/dbc59702f0dd</li>
+  <li>
+    <p style="color: red;">创建新Docker容器时出现“The container name "/xxx" is already in use by container xxxxxxxxxxx...”304网络资源占用问题的解决办法。</p>
+    <p>处理方式：执行 使用 docker system prune 清理掉各类残余的资源。</p>
+  </li>
 </ol>
