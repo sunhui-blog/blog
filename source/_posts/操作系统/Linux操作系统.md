@@ -6,6 +6,9 @@ categories: 操作系统
 ---
 
 浅谈POSIX
-https://zhuanlan.zhihu.com/p/61774373
-https://zhuanlan.zhihu.com/p/392588996
 
+<h4 style="margin-top: 40px;"><附></h4>
+<ol>
+  <li>https://zhuanlan.zhihu.com/p/61774373</li>
+  <li>https://zhuanlan.zhihu.com/p/392588996</li>
+</ol>
