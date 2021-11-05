@@ -1,8 +1,8 @@
 ---
 title: Docker常用命令
 date: 2021-03-04 13:43:20
-tags: 持续集成
-categories: 持续集成
+tags: 持续集成(CI/CD)
+categories: 持续集成(CI/CD)
 ---
 
 <p>Docker常用命令</p>
